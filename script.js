@@ -469,22 +469,14 @@ rules:
   <<: [ *warp-common, *awg ]
   server: pl.tribukvy.ltd
   port: 500
-- name: "🇪🇪 EE"
-  <<: [ *warp-common, *awg ]
-  server: ee.tribukvy.ltd
-  port: 500  
 - name: "🇳🇱 NL"
   <<: [ *warp-common, *awg ]
   server: nl.tribukvy.ltd
   port: 500  
 - name: "🇫🇮 FI"
   <<: [ *warp-common, *awg ]
-  server: fi1.tribukvy.ltd
+  server: fi.tribukvy.ltd
   port: 500
-- name: "🇺🇸 US"
-  <<: [ *warp-common, *awg ]
-  server: usa.tribukvy.ltd
-  port: 500  
 - name: "🇷🇺 RU"
   <<: [ *warp-common, *awg ]
   server: ru0.tribukvy.ltd
@@ -505,9 +497,7 @@ rules:
     - "Стандартный 1"
     - "Стандартный 2"
     - "Стандартный 3"
-    - "🇺🇸 US"
     - "🇵🇱 PL"
-    - "🇪🇪 EE"
     - "🇳🇱 NL"
     - "🇫🇮 FI"
     - "🇷🇺 RU"
